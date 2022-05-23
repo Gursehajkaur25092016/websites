@@ -1,0 +1,68 @@
+html{
+    font-weight: 'Segoe UI', tohama, Geneva, Verdana, Sans-Serif;
+}
+
+header h1{
+    font-weight: 400;
+}
+
+header{
+    display:flex; 
+    justify-content: space-between;
+    margin: 0 3em;
+}
+
+nav{    
+    width: 20rem;
+    margin-top: 1rem; 
+    margin-right: 3rem; 
+}
+
+ul{
+    display: flex; 
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.showcase_img{
+    width: 95vw;
+    margin: 1rem;
+}
+
+article{
+    display: flex; 
+    margin: 1.5rem;
+    /* justify-content: space-around; */
+}
+
+.content{
+    text-align: center;
+    margin-right: 1rem;
+}
+
+footer{
+    /* horizontal centering -- justify content se  */
+    /*  verticsl centering -- align items se hongi  */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    align-items: center; 
+    font-size: 1.5rem;
+    /* align-items is a property of flexbox. */
+}
+
+/* css games  */
+/* kevin powell  */
+
+
